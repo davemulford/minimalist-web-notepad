@@ -2,7 +2,8 @@
 
 body {
     margin: 0;
-    background: #222222;
+    background: #181818;
+	font-size: 15px;
 }
 .container {
     position: absolute;
@@ -23,10 +24,10 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px #ddd solid;
+    border: 1px #555 solid;
     outline: none;
-	background: #181818;
-	color: #c0c0c0;
+	background: #222222;
+	color: #a0a0a0;
 }
 #printable {
     display: none;
