@@ -1,7 +1,7 @@
 <?php
 
 // Base URL of the website, without trailing slash.
-$base_url = $_ENV['WEBNOTES_BASE_URL'];
+$base_url = getenv('WEBNOTES_BASE_URL');
 
 // Disable caching.
 header('Cache-Control: no-cache, no-store, must-revalidate');
